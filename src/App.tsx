@@ -297,6 +297,11 @@ export default function App() {
             </button>
           </div>
         </div>
+        <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-zinc-100 dark:border-zinc-900">
+          <p className="text-[10px] text-zinc-400 dark:text-zinc-600 font-medium text-center md:text-left tracking-wide uppercase">
+            {strings.footerDisclaimer}
+          </p>
+        </div>
       </footer>
 
       {/* Model Detail Modal */}
